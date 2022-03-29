@@ -127,7 +127,43 @@ header {
 
 .inst-item {
   border-left: 3px solid #ecf0f3;
+  display: flex;
 }
+
+.inst-item:last-child {
+  border: 0;
+}
+
+.inst-circle {
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  background-color: #0071b7;
+  margin-left: -10px;
+}
+
+.inst-text {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.inst-text h2 {
+  font-size: 32px;
+  color: black;
+  margin: -10px 0 20px 0;
+}
+
+.inst-text p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #777;
+  margin-bottom: 80px;
+}
+
+.inst-item:last-child p {
+  margin: 0;
+}
+
 /* Rodape */
 
 footer {
