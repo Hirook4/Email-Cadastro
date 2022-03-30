@@ -116,9 +116,6 @@ header {
 
 /* Instruções */
 
-.instructions {
-}
-
 .inst-container {
   margin: auto;
   max-width: 900px;
@@ -164,9 +161,99 @@ header {
   margin: 0;
 }
 
+/* CTA */
+
+.cta {
+  background-color: #1d2437;
+  border-bottom: 2px solid #333;
+}
+
+.cta-container {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  padding: 80px 0;
+  color: #fff;
+}
+
+.cta-left {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.cta-left h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.cta-left p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #999;
+}
+
+.cta-right {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.cta-right input {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.cta-right button {
+  width: 100px;
+  height: 40px;
+  border: 0;
+  font-size: 14px;
+  color: white;
+  background-color: #0071b7;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cta-right button:hover {
+  opacity: 0.5;
+}
+
 /* Rodape */
 
 footer {
-  background-color: #999;
-  height: 300px;
+  background-color: #1d2437;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1070px;
+  padding: 40px 0;
+}
+
+.footer-left {
+}
+
+.footer-right {
+  font-size: 16px;
+  color: #999;
+  text-align: right;
+  line-height: 25px;
+}
+
+.footer-right a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
 }
